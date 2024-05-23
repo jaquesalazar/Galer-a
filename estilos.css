@@ -1,0 +1,133 @@
+body{
+    margin: 10px;
+    padding: 10px;
+    background-color: #777;
+   }
+   
+   header {
+    padding: 30px;
+    background-color: #F1ECFF;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    border: 3px lightsteelblue;
+    margin: none;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.iconos {
+    display: flex; 
+    gap: 10px; 
+}
+
+.a1 {
+    font-family: Helvetica;
+    border-radius: 10px;
+    color: #fff;
+    font-family: verdana;
+}
+   
+   nav{
+      display: flex;
+       flex-direction: row;
+       background-color:#E6DBFF;
+     }  
+   
+   .a2{
+       display: flex ;
+       flex-direction: row;
+       font-family: Helvetica;
+       font-weight:100;
+       background-color:#BAD0EF;
+       border-radius:10px;
+       padding:10px 20px;
+       margin:10px 10px;
+       color:#fff;
+       text-decoration:none;
+       border: dotted;
+       font-family: verdana;
+   }
+      
+   .row{
+       display: flex;
+       justify-content: space-evenly;
+       flex-wrap:wrap;
+   }
+
+   section{
+       flex: 70%;
+       background-color:#F1ECFF;
+       padding:0px;
+   }
+   
+   footer{
+       padding: 20px;
+       background-color: #E6DBFF;
+   }
+
+   div.gallery {
+    margin: 18px 50px;
+    width: 250px;
+  }
+  
+  div.gallery:hover{
+    border: 0.5px dashed #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+  }
+ 
+.div3{
+    display: flex;
+    padding: 50px;
+    background-color: #777;
+}
+.img2{
+    width: 400px;
+    height: 400px;
+    padding-left: 20px;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: seashell;
+}
+  
+h4{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+.div4{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    background-color: #F1ECFF;
+    width: 40%;
+    height: 60%;
+    margin: 0 auto; 
+    
+}
+
+.img3{
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    object-fit: cover;
+    margin-bottom: 20px; 
+}
+
+.p2 p{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; 
+    color: black;
+}
+
+
+
