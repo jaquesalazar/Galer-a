@@ -67,8 +67,9 @@ body{
    }
 
    div.gallery {
-    margin: 18px 50px;
+    margin: 18px 70px;
     width: 250px;
+    
   }
   
   div.gallery:hover{
@@ -90,6 +91,7 @@ body{
     width: 400px;
     height: 400px;
     padding-left: 20px;
+    border-radius: 60px;
 }
 p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
